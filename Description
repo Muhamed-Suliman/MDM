@@ -1,0 +1,16 @@
+📦 National ID Deduplication Phase – MDM Pipeline
+🔍 Overview
+This Python-based module is part of a larger Master Data Management (MDM) system, focusing on exact match deduplication based on the National ID field. It ensures customer records are uniquely identified and grouped, removing redundancies at scale.
+
+🧠 What It Does
+Extracts customer data from the source system.
+
+Applies strict validation and standardization to National ID.
+
+Filters out companies and banks (non-individuals).
+
+Assigns or updates canonical Unique IDs (CIN) to customers with matching national IDs.
+
+Maintains a cross-reference table (CROSS_REF_TABLE) for entity resolution.
+
+Supports batch processing with chunking for large datasets 
